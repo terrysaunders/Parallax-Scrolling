@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Parallax Scrolling Tutorial</title>
+  <meta name="description" content="How to create a parallax scrolling effect with jQuery, HTML and CSS">
+  <meta name="author" content="Richard Shepherd, Smashing Magazine">
+
+  <!-- Mmmmm, Google Web Fonts. That's a paddlin'. -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One|Della+Respira' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div id="main" role="main">
+
+	<!-- Section #1 / Intro -->
+	<section id="first" class="story" data-speed="8" data-type="background">    	
+		<div class="smashinglogo" data-type="sprite" data-offsetY="100" data-Xposition="10%" data-speed="-2"></div>		
+		<article>
+
+			<h2>Transformed by Lou Reed</h2>
+	    </article>
+	</section>
+
+<!-- Section #2 / Background Only -->
+	<section id="second" class="story" data-speed="6" data-type="background" data-offsetY="250" style="height:425px;">    	
+		<div class="vinyl" data-type="sprite" data-offsetY="200" data-Xposition="100%" data-speed="3"></div>
+		<article>
+			<p>Slowly lining up to hit my mid thirties means that idols of my youth are dying (or being arrested) at a rate of knots. </p>
+			<p>I was slightly taken aback, however, at how much I was affected by the passing of Lou Reed. </p>
+			<p>Although definitely a fan I wasn't super clued in to his life's work. I liked The Velvet Underground, I've tried to listen to Berlin several times and I had no idea what he'd done for the last ten years or so. </p>
+			<p>But Transformer, now that album was special.  Transformer is in my top five albums. Odd as the rest of this list (and probably most of the top ten) are albums released in the years when I was between 16-19. </p>
+		
+		</article>
+	</section>
+	
+	<!-- Section #3 / Photos -->
+	<section id="third" class="story" data-speed="6" data-type="background" data-offsetY="250">    	
+    	  <div class="vinyl" data-type="sprite" data-offsetY="0" data-Xposition="100%" data-speed="3"></div>
+		<article>
+    		
+	    	<div class="textbox">    	
+		    	<p>
+I, like most people growing up in the early eighties had access to a vast analogue trove of music in the form of my mums 70s LPs that were all lined up under the telly. This was pre-compact disc, although by this point in history the cassette was king. </p>
+
+<p>Among this list were some Elton John, T. Rex, Beatles, and lesser remembered bands like Manhattan transfer and []. </p>
+
+<p>Do nine year olds in the modern age get to go through such curated catalogues now, will a 2002 baby go through their dad's iTunes in such a way? I know all music is available on Spotify and the like but that does mean looking. 
+</p>
+		    </div>
+    	</article>
+
+	</section>	
+	
+	
+	<!-- Section #4 / HTML5 Video 	<section id="fourth" class="story" data-speed="8" data-type="background" data-offsetY="250">
+    	<article>
+    		<h2>HTML5 Video</h2>
+	    	<div class="textbox">    	
+		    	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+		    	<p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+		    	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. o.</p>
+		    </div>
+    	</article>
+		<video controls width="640" width="480" data-type="video" data-offsetY="2400" data-speed="1.5">
+			<source src="video/parallelparking.theora.ogv" type="video/ogg" />
+			<source src="video/parallelparking.mp4" type="video/mp4" />
+			<source src="video/parallelparking.webm" type="video/webm" />
+		</video>
+	</section>	
+
+	<!-- Section #5 / The End
+	<section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="250">    	
+		<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2"></div>	
+	</section>
+	
+  </div> <!-- // End of #main -->
+
+
+
+  <!-- Our Javascript, starting with jQuery -->
+  <script src='js/libs/jquery-1.6.1.min.js'></script>
+  <script src="js/script.js"></script>
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");
+  <![endif]-->
+
+</body>
+</html>
