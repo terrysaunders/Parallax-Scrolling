@@ -1,59 +1,39 @@
-/**
- * Parallax Scrolling Tutorial
- * For Smashing Magazine
- * July 2011
- *  
- * Author: Richard Shepherd
- *		   www.richardshepherd.com
- * 		   @richardshepherd   
- */
-
-
-article h2 { font-family: 'Della Respira', serif; font-size: 60px; margin: 25px 0; line-height: 1em; 	font-color:#ff9933!important;}
+article h1 { font-family: 'Della Respira', serif; font-size: 60px; margin: 25px 0; line-height: 1em;font-color:#ff9933!important;text-shadow: 2px 2px #aaa;}
 article{font-family: 'Della Respira', serif; font-size: 20px; color: #fff; padding-left: 25px; }
-.story { height: 700px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+article p{padding-bottom:10px;}
+.story { height: 700px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); }
 
 #first { background: url(../images/loureed.png) 50% 0 no-repeat fixed; }
 #second { background: url(../images/grain.png) repeat #333;}
-#fourth { background: url(../images/slide3.jpg) 50% 0 no-repeat fixed; }
-#third { background: url(../images/slide4.jpg) 50% 0 no-repeat fixed; }
+#fourth { background: url(../images/slide4.jpg) 50% 0 no-repeat fixed; }
+#third { background: url(../images/slide3.jpg) 50% 0 no-repeat fixed; }
 #theend { background: url(../images/puckered.png) 50% bottom no-repeat fixed; }
 
-/* Introduction */
-#first .smashinglogo { background: url(../images/terrysaunders.png) 50% 100px no-repeat fixed; min-height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+/* FIRST - INTRO */
+#first .terrysaunderslogo { background: url(../images/terrysaunders.png) 50% 100px no-repeat fixed; min-height: 700px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 #first article { width: 100%; top: 300px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
 #first article a { text-decoration: underline; }
 #first article a:hover { color: #fff; }
 
-
-/* Photograph */
+/* SECOND - RECORD */
 #second article {  margin: 25px 0 0 0%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#second .vinyl { background: url(../images/record.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#second .top5 { background: url(../images/top5.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 #second article p { width: 700px; margin-bottom: 25px; }
 
-/* Background Only */
-#third { padding: 0;height:1000px;}
-#third article { background: url(../images/grain.png) repeat #333; color: #fff; width: 445px; padding-left: 700px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#third article p { margin-bottom: 25px; }
-#third article a { color: #ff0;}
-#third .vinyl { background: url(../images/record.png) transparent 40% 100px no-repeat fixed; min-height: 700px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto;}
+/* THIRD - 70s COLLECTION */
+#third {padding: 0;height:700px;}
+#third article {background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1);margin-top:-900px; }
+#third article .lower {margin-top:500px;}
+#third .bowietrex { background: url(../images/bowietrex.png) 		transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
+#third .manhattanessex { background: url(../images/manhattanessex.png)   		transparent 50% no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px;  margin: 0 auto; }
 
 
-/* HTML5 Video */
-#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#fourth article p { width: 300px; margin: 50px 0; }
-#fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+/* FOURTH -  */
+#fourth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1);margin-top:-900px; }
+#fourth .record { background: url(../images/record.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
 
 /* The End */
 #theend .byebye { background: url(../images/theend.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-
-
-/* Title Panel */
-
-.titlefont {
-	font-family: 'Della Respira', serif;
-	font-color:#ff9933;
-	font-size:40px;
-	}
