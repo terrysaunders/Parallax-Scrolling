@@ -1,7 +1,12 @@
-article h1,h2,h3 { font-family: 'Della Respira', serif; margin: 25px 0; line-height: 1em;font-color:#ff9933!important;text-shadow: 2px 2px #aaa;}
+article h1,article h2, article h3 { font-family: 'Della Respira', serif; margin: 25px 0; line-height: 1em;font-color:#ff9933;text-shadow: 2px 2px #aaa;}
 article h1{font-size: 60px;}
 article h2{font-size: 32px;}
-article h3{font-size: 22px;}
+article h3{font-size: 22px;} 
+
+h2,h3 { font-family: 'Poiret One', serif; margin: 5px 0; line-height: 1em;font-color:#fff!important;width:100%;background-color: #ff8500;padding: 10px 0px 10px 0px;text-align: center;}
+h1{font-size: 60px;}
+h2{font-size: 32px;}
+h3{font-size: 22px;}
 
 article{font-family: 'Della Respira', serif; font-size: 20px; color: #fff; padding-left: 25px; }
 article p{padding-bottom:10px;}
@@ -15,6 +20,18 @@ iframe{height:81px!important;}
 #third { background: url(../images/slide3.jpg) 50% 0 no-repeat fixed; }
 #fourth { background: url(../images/slide4.jpg) 50% 0 no-repeat fixed; }
 #fifth { background: url(../images/warhol.jpg) 50% bottom no-repeat fixed; }
+#sixth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#seventh { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#eighth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#ninth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#tenth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#eleventh { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#twelth{ background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#thirteenth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#fourteenth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#fifteenth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+#sixteenth { background: url(../images/pucker.jpg) 50% bottom no-repeat fixed; }
+
 
 /* FIRST - INTRO */
 #first .terrysaunderslogo { background: url(../images/terrysaunders.png) 50% 100px no-repeat fixed; min-height: 700px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
@@ -26,15 +43,15 @@ iframe{height:81px!important;}
 
 /* SECOND - RECORD */
 #second article {  margin: 25px 0 0 0%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#second .top5 { background: url(../images/top5.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#second .top5 { background: url(../images/top5.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; rotation:17deg;position: relative; margin: 0 auto; }
 #second article p { width: 700px; margin-bottom: 25px; }
 
 /* THIRD - 70s COLLECTION */
 #third {padding: 0;height:700px;}
 #third article {background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1);margin-top:-900px; }
 #third article .lower {margin-top:500px;}
-#third .bowietrex { background: url(../images/bowietrex.png) 		transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
-#third .manhattanessex { background: url(../images/manhattanessex.png)   		transparent 50% no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px;  margin: 0 auto; }
+#third .bowietrex { background: url(../images/bowietrex.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: absolute; margin: 0 auto; }
+#third .manhattanessex { background: url(../images/manhattanessex.png) transparent 50% no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px;  margin: 0 auto; }
 
 /* FOURTH -  */
 #fourth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1);margin-top:-900px; }
@@ -42,8 +59,51 @@ iframe{height:81px!important;}
 
 /* FIFTH - VICIOUS */
 #fifth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#fifth .record { background: url(../images/record.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#fifth aside {float:right;margin-right:5%;}
+#fifth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - ANDY'S CHEST */
+#sixth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#sixth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - PERFECT DAY */
+#seventh article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#seventh aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - HANGIN' ROUND */
+#eigth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#eighth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - WALK ON THE WILD SIDE */
+#ninth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#ninth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - MAKE UP */
+#tenth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#tenth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - SATELITTE OF LOVE */
+#eleventh article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#eleventh aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - WAGON WHEEL */
+#twelth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#twelth aside {margin-left:79%;position:absolute;}
+
+/* FIFTH - NEW YORK TELEPHONE CONVERSATION */
+#thirteenth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#thirteenth aside {margin-left:79%;position:absolute;}
+
+/* FOURTEENTH - I'M SO FREE */
+#fourteenth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#fourteenth aside {margin-left:79%;position:absolute;}
+
+/* FIFTEENTH - GOODNIGHT LADIES */
+#fifteenth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#fifteenth aside {margin-left:79%;position:absolute;}
+
+/* SIXTEENTH - OUTRO */
+#sixteenth article { background-color:#333;color: #fff; width:35%; padding-left: 10px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#sixttenth aside {margin-left:79%;position:absolute;}
 
 
 /* The End */
